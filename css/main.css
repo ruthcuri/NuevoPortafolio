@@ -1,0 +1,302 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush);
+@import url(https://fonts.googleapis.com/css?family=Wire+One);
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Allura);  /*nombre*/
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond); /*H2*/
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One); ¨/*NAV*/
+.clearfix {
+  *zoom: 1;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+
+}
+h1{
+    color: #19deb1;
+font-family: 'Allura', cursive;
+font-size: 7em;
+padding-top:3%;
+
+}
+#present{
+    background-image: url("../images/ruth.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding: 10%;
+    text-align: center;
+}
+.darken{
+    background-color:rgba(9, 10, 10, 0.82);
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+.figure-check{
+    width: 300px;
+}
+.figure-circle{
+    width: 225px;
+}
+
+.subtitulo{
+    font-family: 'Wire One', sans-serif;
+    color: grey;
+    font-size: 3em;
+}
+
+.btn{
+  border: 1px solid #19deb1;
+  margin-top: 2rem;
+      color: white;
+    font-size: 2em;
+}
+.btn:hover{
+    color: #19deb1;
+}
+
+a:hover, a:focus {
+    color:#19deb1;
+    text-decoration: underline;
+}
+
+a{
+color: gray;
+    font-family: 'Wire One', sans-serif;
+    padding: 0 15px;
+    font-size: 3em;
+
+}
+nav{
+      padding-top: 0%;
+}
+.fa-chevron-down{
+    padding-top: 15%;
+}
+.bg-img{
+    margin: auto;
+}
+.circle{
+    height: 50px;
+}
+h2{
+    font-family: 'EB Garamond', serif;
+    font-size: 3em;
+}
+/************** sobre mi **************/
+#sobre-mi{
+    padding: 5%;
+}
+.ruth{
+    height: 600px;
+    width: 600px;
+}
+.parrafo-about{
+    padding: 4%;
+     font-family: 'EB Garamond', serif;
+     color: black;
+     font-size: 1.3em;
+}
+.aditional{
+    width: 300px;
+}
+.img-aditional{
+    width: 100%;
+}
+.arrow{
+        width: 50%;
+    margin: auto;
+    padding-top: 40px;
+}
+/*******************habilidades********************/
+
+section#habilidades{
+     padding: 5%;
+}
+.box-color{
+    background-color: #19deb1;
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+}
+.skill-box{
+    height: 300px;
+    width: 285px;
+    display: inline-block;
+    margin: 15px;
+
+}
+.title-hab{
+       margin: auto; 
+}
+.aq{
+    border: 20px solid #01dea1;
+    background-image: url("../images/html.png");
+    background-size: cover;
+}
+.aw{
+    border: 20px solid #fff100;
+    background-image: url("../images/css.png");
+    background-size: cover;
+}
+.ar{
+    border: 20px solid #da2f86;
+    background-image: url("../images/wordpress.png");
+    background-size: cover;
+}
+.at{
+    border: 20px solid #2f95c4;
+    background-image: url("../images/git.png");
+    background-size: cover;
+}
+.ay{
+    border: 20px solid #90B527;
+    background-image: url("../images/bootstrap.png");
+    background-size: cover;
+
+}
+.au{
+    border: 20px solid #493C61;
+    background-image: url("../images/html.png");
+    background-size: cover;
+}
+
+/******efecto de habiliadades**/
+.ejemplo-4 img {
+transition: all 0.4s ease-in-out 0.2s;
+opacity: 1;
+}
+.ejemplo-4 .mascara {
+background-color: rgba(0,0,0,0.8);
+opacity: 0;
+transform: scale(0) rotate(-180deg);/*Rotamos 180grados y le damos tamaño 0*/
+transition: all 0.4s ease-in;
+border-radius: 0px;
+color: white;
+height: 240px;
+}
+.ejemplo-4 h2{
+opacity: 0;
+border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+background: transparent;
+margin: 20px 40px 0px 40px;
+transition: all 0.5s ease-in-out;
+}
+.ejemplo-4 p {
+opacity: 0;
+transition: all 0.5s ease-in-out;
+}
+.ejemplo-4 a.link {
+opacity: 0;
+transition: all 0.5s ease-in-out;
+}
+
+.ejemplo-4:hover .mascara {
+opacity: 1;
+transform: scale(1) rotate(0deg);/*Regresamos a su tamaño y posición original*/
+transition-delay: 0.2s;
+}
+.ejemplo-4:hover img {
+transform: scale(0); /*Efecto zoom-out*/
+opacity: 0;
+transition-delay: 0s;
+}
+.ejemplo-4:hover h2,
+.ejemplo-4:hover p,
+.ejemplo-4:hover a.link{
+opacity: 1;
+transition-delay: 0.5s;
+}
+/**************** Proyectos ******************/
+#proyectos{
+    background-attachment: fixed;
+}
+h3{
+
+}
+@media (min-width: 800px){
+    #proyectos{
+    
+    }
+}
+.img-header{
+    width: 100%;
+}
+.team{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/pattern-11.png");
+}
+.section {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 160px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.line{
+    width: 10%;
+    border:3px solid #19deb1;
+}
+.hover08 figure img {
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+/************************/
+/********* CONTACTOS **********/
+#submit_button{
+    padding: 10px;
+    margin: 18px 44px;
+    color: #DE5714;
+}
+
+#contactos {
+    height: 100%;
+    background-image: url("../images/pattern-12.png");
+    background-attachment: fixed;
+    width: 100%;
+    padding: 5%;
+}
+.black-gh{
+    height: 700px;
+    width: 1000px;
+    background-color: #fff;
+    margin: auto;
+}
+.photo-hack{
+    width: 500px;
+    margin: auto;
+    padding-top: 27px;
+
+}
+.lab{
+    color: orange;
+    font-size: 1em;
+    font-family: 'Poiret One', cursive;
+}
+  
+hr{
+    width: 45%;
+}
+
+.icon-redes{
+    padding: 10px;
+    border-radius: 35px;
+    background-color: #19deb1;
+    color: white;
+}
