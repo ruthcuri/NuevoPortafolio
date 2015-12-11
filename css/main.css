@@ -271,6 +271,9 @@ h3{
     width: 100%;
     padding: 15%;
 }
+.text-xs{
+    font-size: 1.5em;
+}
 .black-gh{
     height: 700px;
     width: 1000px;
