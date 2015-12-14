@@ -26,14 +26,20 @@ padding-top:3%;
     height: 100%;
     background-size: cover;
     background-attachment: fixed; 
-    padding: 10%;
-    text-align: center;
+        margin: auto;
+    position: relative;
 }
 .darken{
     background-color:rgba(9, 10, 10, 0.82);
-    width: 100%;
-    height: 100%;
-    padding: 3%;
+        background-color: rgba(9, 10, 10, 0.82);
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 }
 .figure-check{
     width: 300px;
