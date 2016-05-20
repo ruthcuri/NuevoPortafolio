@@ -26,7 +26,7 @@ padding-top:3%;
     height: 100%;
     background-size: cover;
     background-attachment: fixed; 
-        margin: auto;
+    margin: auto;
     position: relative;
 }
 .darken{
@@ -40,6 +40,7 @@ padding-top:3%;
     right: 0;
     bottom: 0;
     margin: auto;
+    padding: 5%;
 }
 .figure-check{
     width: 300px;
@@ -96,7 +97,7 @@ h2{
 #sobre-mi{
     padding: 5%;
 }
-.ruth{
+.mujer-gif{
     height: 600px;
     width: 600px;
 }
@@ -129,8 +130,8 @@ section#habilidades{
     margin: auto;
 }
 .skill-box{
-    height: 300px;
-    width: 285px;
+    height: 280px;
+    width: 280px;
     display: inline-block;
     margin: 15px;
 
@@ -141,33 +142,39 @@ section#habilidades{
 .aq{
     border: 20px solid #01dea1;
     background-image: url("../images/html.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .aw{
     border: 20px solid #fff100;
     background-image: url("../images/css.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .ar{
     border: 20px solid #da2f86;
     background-image: url("../images/wordpress.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .at{
     border: 20px solid #2f95c4;
     background-image: url("../images/git.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .ay{
     border: 20px solid #90B527;
     background-image: url("../images/bootstrap.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 .au{
     border: 20px solid #493C61;
     background-image: url("../images/html.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /******efecto de habiliadades**/
@@ -182,7 +189,7 @@ transform: scale(0) rotate(-180deg);/*Rotamos 180grados y le damos tamaño 0*/
 transition: all 0.4s ease-in;
 border-radius: 0px;
 color: white;
-height: 240px;
+height: 220px;
 }
 .ejemplo-4 h2{
 opacity: 0;
@@ -287,24 +294,17 @@ h3{
     margin: auto;
 }
 .photo-hack{
-    width: 40%;
+    width: 50%;
     margin: auto;
     padding-top: 27px;
 
 }
-.lab{
-    color: orange;
-    font-size: 1em;
-    font-family: 'Poiret One', cursive;
-}
-  
-hr{
-    width: 45%;
-}
-
 .icon-redes{
     padding: 10px;
     border-radius: 35px;
     background-color: #19deb1;
     color: white;
+}
+.redes-sociales{
+    padding-top: 3%;
 }
